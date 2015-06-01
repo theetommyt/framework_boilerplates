@@ -8,18 +8,40 @@
     <meta name="author" content"name or company">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Bootstrap Two Column Boilerplate</title>
   </head>
   <body>
 
-    <div class="container">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
 
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <span class="glyphicon glyphicon-superscript"></span>
+          </a>
+          <a class="navbar-brand" href="#">
+            My App Title
+          </a>
+        </div><!-- end navbar branding -->
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div><!-- end navbar links -->
+
+      </div>
+    </nav>
+
+    <div class="container">
 
       <header class="page-header">
         <h1>My header text</h1>
         <p class="lead">This is my Two Column Layout</p>
       </header>
-
 
       <div class="row">
 
@@ -38,7 +60,6 @@
         </aside>
 
       </div>
-
 
     </div>
 
